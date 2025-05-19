@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>서율 음악소</title>
+  <style>
+    body {
+      font-family: 'Pretendard', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+      color: #333;
+    }
+
+    header {
+      background: #fff;
+      text-align: center;
+      padding: 40px 20px 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    header img {
+      width: 120px;
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .hero {
+      background: linear-gradient(120deg, #fceabb, #f8b500);
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.6rem;
+      margin: 0 0 20px;
+      color: #111;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      background: #111;
+      color: #fff;
+      padding: 14px 28px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #333;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 16px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .card ul {
+      padding-left: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .features {
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    .features p {
+      font-size: 16px;
+      max-width: 700px;
+      margin: 0 auto 10px;
+      color: #444;
+    }
+
+    .hashtags {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hashtags span {
+      background: #eee;
+      margin: 6px;
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      background-color: #f3f4f6;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.postimg.cc/fR0MR8Pc/tjdbfdmadkr.png" alt="서율 음악소 로고" style="width: 700px;">
+  </header>
+
+  <section class="hero">
+    <h1>영상에 감성을 더하는 음악소</h1>
+    <p>10~20대 크리에이터를 위한 무료 & 저작권 걱정 없는 BGM 라이브러리</p>
+    <a href="#" class="cta-button">무료로 사용하기</a>
+  </section>
+
+  <section>
+    <h2>🎵 분위기별 BGM 패키지</h2>
+    <div class="grid">
+      <!-- 카드 1 -->
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="사탕">
+        <h3>🍯 달달한 분위기</h3>
+        <ul>
+          <li>• 설레는 고백</li>
+          <li>• 달콤한 하루</li>
+          <li>• 퐁당 빠지는 감성</li>
+        </ul>
+      </div>
+      <!-- 카드 2 -->
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/415/415733.png" alt="레몬">
+        <h3>🍋 새콤한 감성</h3>
+        <ul>
+          <li>• 상큼 발랄한 느낌</li>
+          <li>• 밝고 경쾌한 리듬</li>
+          <li>• 신선한 하루 시작</li>
+        </ul>
+      </div>
+      <!-- 카드 3 -->
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="달 이미지">
+        <h3>🌙 몽환적인 분위기</h3>
+        <ul>
+          <li>• 몽글몽글 새벽 감성</li>
+          <li>• 무중력 사운드</li>
+          <li>• 꿈속을 떠다니는 느낌</li>
+        </ul>
+      </div>
+      <!-- 카드 4 -->
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/4264/4264494.png" alt="커피">
+        <h3>☕ 브이로그용 감성</h3>
+        <ul>
+          <li>• 따뜻한 일상</li>
+          <li>• 카페에서 듣는 듯한 음악</li>
+          <li>• 잔잔하고 편안함</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>🎧 이런 크리에이터에게 딱 맞아요</h2>
+    <p>• SNS 활동 활발한 10대 후반 ~ 20대 중반</p>
+    <p>• 숏폼 콘텐츠를 제작하지만 BGM 선택이 어려운 분</p>
+    <p>• 팔로워 1천 ~ 1만명 소규모 크리에이터</p>
+  </section>
+
+  <section class="hashtags">
+    <p>📌 서율 음악소의 핵심 해시태그! (SNS용)</p>
+    <div>
+      <span>#무료BGM</span>
+      <span>#저작권없는배경음악</span>
+      <span>#숏폼음악</span>
+      <span>#틱톡사운드</span>
+      <span>#유튜브브금</span>
+      <span>#감성BGM</span>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 서율 음악소 | 모두의 영상에 감성을 담다
+  </footer>
+
+</body>
+</html>
